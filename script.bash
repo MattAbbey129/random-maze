@@ -5,7 +5,13 @@
 
 main() {
 
-  echo 'Hello, world!'
+  clear
+
+  while true; do
+
+    echo 'Hello, world!'
+
+  done
 
 }
 
