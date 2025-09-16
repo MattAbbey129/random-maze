@@ -17,6 +17,8 @@ main() {
       2) printf '╲' ;;
     esac
 
+    sleep 0.0001
+
   done
 
 }
