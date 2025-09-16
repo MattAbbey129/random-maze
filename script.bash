@@ -12,7 +12,10 @@ main() {
     # Generate a random number between 1 and 2.
     local WALL_ANGLE="$((RANDOM % 2 + 1))"
 
-    echo "$WALL_ANGLE"
+    case "${WALL_ANGLE}" in
+      1) printf '╱' ;;
+      2) printf '╲' ;;
+    esac
 
   done
 
